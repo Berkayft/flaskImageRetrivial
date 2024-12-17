@@ -1,0 +1,43 @@
+# Python Cache ve derleme dosyaları
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environment (venv) dosyaları
+.venv/
+env/
+venv/
+
+# Hassas bilgiler
+*.env
+config.json
+
+# Log dosyaları
+*.log
+logs/
+*.out
+*.err
+
+# TensorFlow model ve checkpoint dosyaları
+*.ckpt
+*.pb
+saved_model/
+
+# Jupyter Notebook Checkpoint Dosyaları
+.ipynb_checkpoints/
+
+# PyCharm / VSCode IDE dosyaları
+.idea/
+.vscode/
+*.code-workspace
+
+# MacOS sistem dosyaları
+.DS_Store
+
+# Test/Debug klasörleri veya dosyaları (varsa)
+test_results/
+debug/
+
+# Diğer (örneğin kendi oluşturduğunuz temp dosyaları)
+tmp/
+temp/
